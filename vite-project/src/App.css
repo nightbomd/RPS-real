@@ -5,6 +5,21 @@
   text-align: center;
 }
 
-.enter {
-  background-color: #28A745;
+
+.btn.play {
+  background-color: #667EEA;
+  color: white;
+  border: none;
+}
+
+.btn.play:hover {
+  background-color: #5568d3;
+  color: white;
+}
+
+.btn.play:active,
+.btn.play:focus {
+  background-color: #4557bc;
+  color: white;
+  box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.5);
 }

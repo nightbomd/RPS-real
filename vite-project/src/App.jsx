@@ -14,6 +14,12 @@ function Button({ text, onClick, className = "", type = "button" }) {
 }
 
 function App() {
+  /* const [name, setName] =  useState("")
+  const [username, setUsername] = useState("")
+
+  function enterName () {
+
+  } */
   return (
     <>
     <h1 className = "mb-5">Rock Paper Scissors!</h1>
@@ -23,7 +29,7 @@ function App() {
           <input className = "form-control p-3 rounded shadow-sm" type="text" placeholder="Name"></input>
           <Button 
             text ="Enter"
-            className = "p-3 enter shadow btn "
+            className = "p-3 enter shadow btn btn-success "
           />
         </div>
         <Button 
@@ -35,5 +41,5 @@ function App() {
   )
 }
 
-
-export default { App, Button}
+export { Button }
+export default App
