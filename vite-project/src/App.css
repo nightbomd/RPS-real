@@ -3,8 +3,22 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
 }
 
+.play-gradient {
+  background: linear-gradient(90deg, #DC3545 50%, #667EEA 50%);
+  height: 100vh;
+  /* makes it full screen */
+  width: 100vw;
+  margin: 0;
+  /* just in case */
+  padding: 0;
+  position: fixed;
+top: 0;
+left: 0;
+
+}
 
 .btn.play {
   background-color: #667EEA;
